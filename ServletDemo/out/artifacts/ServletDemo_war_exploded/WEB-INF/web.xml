@@ -10,6 +10,16 @@
 
     <servlet-mapping>
         <servlet-name>siyu</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/Siyu/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Image</servlet-name>
+        <servlet-class>imgServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Image</servlet-name>
+        <url-pattern>/Siyu/Image</url-pattern>
     </servlet-mapping>
 </web-app>
