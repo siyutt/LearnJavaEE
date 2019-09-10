@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>entry.ChatRoomBean</title>
+	<meta charset="utf-8" content="text/html">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+
+	<script type="text/javascript">
+		var ws;
+		var username=window.sessionStorage.getItem("username");
+		$(function () {
+			$("#tile").append("<div>"+username+"</div>");
+		});
+		var url="ws://192.168.123.4:8080/WepSocket?username="+username;
+
+		window.onload=function () {
+
+			if ('WebSocket' in window) {
+				ws = new WebSocket(url);
+			} else if ('MozWebSocket' in window) {
+				ws = new MozWebSocket(url);
+			} else {
+				alert('WebSocket is not supported by this browser.');
+				return;
+			}
+
+			ws.onopen=function (event) {
+                eval("var msg="+event.data+";");
+                console.info(msg.userList);
+                // if(undefined!=msg.welcome){
+                //     $("#content").append(msg.welcome);
+                // }
+                if(undefined!=msg.userList){
+                    $("#userList").html("");
+
+                    $(msg.userList).each(function(){
+                        if(this != username){
+                            $("#userList").append(this+"<input name=checkbox type=checkbox value='"+this+"'/>"+"<br/>")
+                        }else{
+                            $("#userList").append(this+"<br/>")
+                        }
+
+                    })
+                }
+                if(undefined!=msg.content){
+                    $("#content").append(msg.content);
+                }
+            }
+
+			ws.onmessage = function(event){
+
+				eval("var msg="+event.data+";");
+				console.info(msg.userList);
+				if(undefined!=msg.userList){
+					$("#userList").html("");
+					$(msg.userList).each(function(){
+						if(this != username){
+							$("#userList").append(this+"<input name=checkbox type=checkbox value='"+this+"'/>"+"<br/>")
+						}else{
+							$("#userList").append(this+"<br/>")
+						}
+
+					})
+				}
+				if(undefined!=msg.content){
+					$("#content").append(msg.content);
+				}
+			}
+		}
+
+
+		function  subSend(){
+			var list=[];
+			$('input[name="checkbox"]:checked').each(function (){
+				list.push($(this).val());
+			});
+			// var ss = $("#userList:checkbox");
+			var val = $("#msg").val();
+			var obj = null;
+			if(list.length == 0){
+				obj={
+                    messge:val,
+					type:1   // 1是广播 2是单聊
+				}
+			}else{
+				var users = "";
+				var obj=document.getElementsByName("checkbox");  // 选择所有name="'checkbox'"的对象，返回数组
+				for(var i=0;i<obj.length;i++){
+					if(obj[i].checked){
+						users += obj[i].value+",";
+					}
+				}
+
+				obj={
+					to:users,
+					messge:val,
+					type:2
+				}
+			}
+			var str = JSON.stringify(obj);
+			ws.send(str);
+			$("#msg").val("");
+
+		}
+
+	</script>
+</head>
+<body>
+
+
+	<h3 id="tile">欢迎 </h3>
+
+
+	<div  id="content"  style="
+		border: 1px solid black; width: 400px; height: 300px;
+		float: left;
+	"  ></div>
+	<div  id="userList"  style="
+		border: 1px solid black; width: 100px; height: 300px;
+		float:left;
+	"  ></div>
+
+	<div  style="clear: both;" >
+		<input id="msg"  />
+		<button  onclick="subSend();"  >send</button>
+		<button onclick="subClose();">退出聊天</button>
+	</div>
+
+
+</body>
+</html>

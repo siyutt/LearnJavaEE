@@ -1,18 +1,23 @@
 
 <html>
-  <head>
-    <title>Siyu</title>
-  </head>
+  	<head>
+		<title>Siyu</title>
+		<script>
+			function save() {
+				var username=document.getElementById("username").value;
+				window.sessionStorage.setItem("username",username);
+			}
 
-  <body>
+		</script>
+  	</head>
 
-  	<form action="/Siyu/Login" method="post">
-  		User:<input type="text" name="id"><br>
-  		Passwd:<input type="password" name="passwd"><br>
-  		Temp:<input type="text" name="randomNum">
-  		<img src="/Siyu/Image"><br>
-  		<input type="submit" name="submit">
-  	</form>
+  	<body>
+		<form action="/Siyu/Login" method="post">
+			User:<input type="text" name="username" id="username"><br>
+			Temp:<input type="text" name="randomNum" id="randomNum">
+			<img src="/Siyu/Image"><br>
+			<input type="submit" onclick="save()" value="confirm">
+		</form>
 
-  </body>
+  	</body>
 </html>

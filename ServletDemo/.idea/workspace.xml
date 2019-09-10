@@ -8,21 +8,107 @@
   <component name="ChangeListManager">
     <list default="true" id="07decbae-59b8-4641-a317-f175bc53f079" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ChatRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="222">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/MainService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-385">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#568#576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entry/UserContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="6" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entry/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/ChatRoom.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,10 +130,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/Entry/User.java" />
+        <option value="$PROJECT_DIR$/src/DAO/UserDao.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/DB.properties" />
+        <option value="$PROJECT_DIR$/src/DBSingleton.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/entry/UserBean.java" />
         <option value="$PROJECT_DIR$/src/imgServlet.java" />
+        <option value="$PROJECT_DIR$/src/ChatRom.java" />
+        <option value="$PROJECT_DIR$/src/ChatRo0m.java" />
+        <option value="$PROJECT_DIR$/src/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/entry/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/entry/ChatRoomBean.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Service/MainService.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/entry/UserContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/MainService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entry/Message.java" />
+        <option value="$PROJECT_DIR$/web/ChatRoom.html" />
       </list>
     </option>
   </component>
@@ -58,10 +163,44 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ServletDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ServletDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ServletDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ServletDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="975" />
-    <option name="height" value="1089" />
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
+    <option name="width" value="493" />
+    <option name="height" value="864" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -69,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,6 +219,27 @@
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServletDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -97,24 +256,35 @@
               <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="ServletDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558005208064" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558527150836" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../websocket_chat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,7 +300,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="ServletDemo:war exploded">
           <settings>
@@ -267,44 +439,52 @@
       <workItem from="1556980858242" duration="213000" />
       <workItem from="1556981106851" duration="1558000" />
       <workItem from="1557986444895" duration="8088000" />
+      <workItem from="1558164071652" duration="5968000" />
+      <workItem from="1558233118108" duration="16859000" />
+      <workItem from="1558418668439" duration="11501000" />
+      <workItem from="1558430796679" duration="1073000" />
+      <workItem from="1558443828099" duration="6408000" />
+      <workItem from="1558506138658" duration="1257000" />
+      <workItem from="1558507823137" duration="10943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9859000" />
+    <option name="totallyTimeSpent" value="66032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1819" height="1218" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985955" visible="true" weight="0.13855764" />
-      <window_info id="Structure" order="1" sideWeight="0.5014045" side_tool="true" weight="0.13855764" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49679488" visible="true" weight="0.19402985" />
+      <window_info x="1091" y="715" width="1013" height="343" id="Run" order="1" sideWeight="0.5032051" side_tool="true" type="FLOATING" weight="0.19402985" />
+      <window_info id="Structure" order="2" sideWeight="0.5032051" side_tool="true" weight="0.14765458" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.50213677" side_tool="true" weight="0.16257995" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32830188" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.24358974" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.24358974" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.258547" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25746268" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -315,18 +495,345 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="1022">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/imgServlet.java">
+    <entry file="uml://JAVA/javax.servlet.http">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.servlet.http</OriginalElement>
+          <nodes>
+            <node x="34.0" y="160.0">javax.servlet.http.NoBodyResponse</node>
+            <node x="391.0" y="540.0">javax.servlet.http.HttpSession</node>
+            <node x="553.0" y="540.0">javax.servlet.http.HttpServlet</node>
+            <node x="435.0" y="465.0">javax.servlet.http.HttpSessionListener</node>
+            <node x="488.0" y="80.0">javax.servlet.http.HttpServletRequestWrapper</node>
+            <node x="0.0" y="465.0">javax.servlet.http.HttpSessionIdListener</node>
+            <node x="26.0" y="0.0">javax.servlet.http.HttpServletResponse</node>
+            <node x="279.0" y="80.0">javax.servlet.http.RFC6265Validator</node>
+            <node x="237.0" y="235.0">javax.servlet.http.HttpSessionActivationListener</node>
+            <node x="266.0" y="0.0">javax.servlet.http.CookieNameValidator</node>
+            <node x="279.0" y="160.0">javax.servlet.http.RFC2109Validator</node>
+            <node x="219.0" y="465.0">javax.servlet.http.HttpUpgradeHandler</node>
+            <node x="0.0" y="390.0">javax.servlet.http.HttpSessionAttributeListener</node>
+            <node x="0.0" y="315.0">javax.servlet.http.HttpSessionBindingEvent</node>
+            <node x="514.0" y="0.0">javax.servlet.http.HttpServletRequest</node>
+            <node x="206.0" y="540.0">javax.servlet.http.WebConnection</node>
+            <node x="277.0" y="615.0">javax.servlet.http.Part</node>
+            <node x="22.0" y="235.0">javax.servlet.http.HttpSessionEvent</node>
+            <node x="0.0" y="615.0">javax.servlet.http.HttpUtils</node>
+            <node x="0.0" y="80.0">javax.servlet.http.HttpServletResponseWrapper</node>
+            <node x="508.0" y="390.0">javax.servlet.http.NoBodyOutputStream</node>
+            <node x="0.0" y="540.0">javax.servlet.http.HttpSessionContext</node>
+            <node x="257.0" y="390.0">javax.servlet.http.HttpSessionBindingListener</node>
+            <node x="143.0" y="615.0">javax.servlet.http.Cookie</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.servlet.http.RFC6265Validator" target="javax.servlet.http.CookieNameValidator">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.HttpServletResponseWrapper" target="javax.servlet.http.HttpServletResponse">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.RFC2109Validator" target="javax.servlet.http.RFC6265Validator">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.HttpServletRequestWrapper" target="javax.servlet.http.HttpServletRequest">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.NoBodyResponse" target="javax.servlet.http.HttpServletResponseWrapper">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http.HttpSessionBindingEvent" target="javax.servlet.http.HttpSessionEvent">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-242.0" y="127.0" />
+          <SelectedNodes>
+            <node>javax.servlet.http.HttpServletResponse</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/javax.servlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.servlet</OriginalElement>
+          <nodes>
+            <node x="230.0" y="630.0">javax.servlet.ServletRequestListener</node>
+            <node x="382.0" y="780.0">javax.servlet.resources</node>
+            <node x="0.0" y="780.0">javax.servlet.annotation</node>
+            <node x="157.0" y="930.0">javax.servlet.FilterChain</node>
+            <node x="589.0" y="170.0">javax.servlet.http</node>
+            <node x="633.0" y="325.0">javax.servlet.ServletRegistration</node>
+            <node x="133.5" y="245.0">javax.servlet.HttpConstraintElement</node>
+            <node x="531.0" y="400.0">javax.servlet.ServletException</node>
+            <node x="423.0" y="705.0">javax.servlet.ServletInputStream</node>
+            <node x="0.0" y="705.0">javax.servlet.SessionCookieConfig</node>
+            <node x="0.0" y="930.0">javax.servlet.AsyncEvent</node>
+            <node x="180.75" y="80.0">javax.servlet.jsp</node>
+            <node x="545.0" y="555.0">javax.servlet.ServletContainerInitializer</node>
+            <node x="171.0" y="855.0">javax.servlet.AsyncContext</node>
+            <node x="0.0" y="855.0">javax.servlet.AsyncListener</node>
+            <node x="274.0" y="555.0">javax.servlet.ServletContextAttributeListener</node>
+            <node x="302.75" y="80.0">javax.servlet.ServletOutputStream</node>
+            <node x="341.0" y="855.0">javax.servlet.WriteListener</node>
+            <node x="244.0" y="325.0">javax.servlet.ServletSecurityElement</node>
+            <node x="310.0" y="930.0">javax.servlet.Filter</node>
+            <node x="676.0" y="630.0">javax.servlet.ServletContextListener</node>
+            <node x="566.75" y="245.0">javax.servlet.Registration</node>
+            <node x="789.8125" y="0.0">javax.servlet.ServletRequest</node>
+            <node x="0.0" y="0.0">javax.servlet.ServletConfig</node>
+            <node x="626.0" y="705.0">javax.servlet.RequestDispatcher</node>
+            <node x="166.5" y="0.0">javax.servlet.Servlet</node>
+            <node x="0.0" y="480.0">javax.servlet.ServletRequestAttributeEvent</node>
+            <node x="467.0" y="325.0">javax.servlet.FilterRegistration</node>
+            <node x="0.0" y="555.0">javax.servlet.ServletRequestAttributeListener</node>
+            <node x="0.0" y="630.0">javax.servlet.MultipartConfigElement</node>
+            <node x="0.0" y="325.0">javax.servlet.HttpMethodConstraintElement</node>
+            <node x="454.0" y="630.0">javax.servlet.SessionTrackingMode</node>
+            <node x="216.0" y="705.0">javax.servlet.SingleThreadModel</node>
+            <node x="285.0" y="400.0">javax.servlet.ServletContextEvent</node>
+            <node x="490.75" y="80.0">javax.servlet.ServletResponseWrapper</node>
+            <node x="517.0" y="480.0">javax.servlet.UnavailableException</node>
+            <node x="575.3125" y="0.0">javax.servlet.ServletResponse</node>
+            <node x="192.0" y="780.0">javax.servlet.descriptor</node>
+            <node x="678.0" y="855.0">javax.servlet.FilterConfig</node>
+            <node x="29.75" y="80.0">javax.servlet.GenericServlet</node>
+            <node x="510.0" y="855.0">javax.servlet.ReadListener</node>
+            <node x="25.0" y="400.0">javax.servlet.ServletRequestEvent</node>
+            <node x="569.0" y="780.0">javax.servlet.DispatcherType</node>
+            <node x="260.0" y="480.0">javax.servlet.ServletContextAttributeEvent</node>
+            <node x="752.0" y="780.0">javax.servlet.ServletContext</node>
+            <node x="707.75" y="80.0">javax.servlet.ServletRequestWrapper</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.servlet.ServletRequestWrapper" target="javax.servlet.ServletRequest">
+              <point x="0.0" y="-15.0" />
+              <point x="800.75" y="55.0" />
+              <point x="823.3125" y="55.0" />
+              <point x="-33.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.ServletRequestAttributeEvent" target="javax.servlet.ServletRequestEvent">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.ServletRegistration" target="javax.servlet.Registration">
+              <point x="0.0" y="-15.0" />
+              <point x="711.5" y="300.0" />
+              <point x="655.25" y="300.0" />
+              <point x="29.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.ServletSecurityElement" target="javax.servlet.HttpConstraintElement">
+              <point x="0.0" y="-15.0" />
+              <point x="333.0" y="300.0" />
+              <point x="267.0" y="300.0" />
+              <point x="44.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http" target="javax.servlet.GenericServlet">
+              <point x="-45.0" y="-15.0" />
+              <point x="598.0" y="150.0" />
+              <point x="95.25" y="150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http" target="javax.servlet.ServletResponseWrapper">
+              <point x="-9.0" y="-15.0" />
+              <point x="634.0" y="130.0" />
+              <point x="588.75" y="130.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.FilterRegistration" target="javax.servlet.Registration">
+              <point x="0.0" y="-15.0" />
+              <point x="540.0" y="300.0" />
+              <point x="596.25" y="300.0" />
+              <point x="-29.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.jsp" target="javax.servlet.Servlet">
+              <point x="0.0" y="-15.0" />
+              <point x="21.75" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.HttpMethodConstraintElement" target="javax.servlet.HttpConstraintElement">
+              <point x="0.0" y="-15.0" />
+              <point x="112.0" y="300.0" />
+              <point x="178.0" y="300.0" />
+              <point x="-44.5" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http" target="javax.servlet.ServletRequestWrapper">
+              <point x="27.0" y="-15.0" />
+              <point x="670.0" y="140.0" />
+              <point x="800.75" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.ServletContextAttributeEvent" target="javax.servlet.ServletContextEvent">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http" target="javax.servlet.ServletResponse">
+              <point x="9.0" y="-15.0" />
+              <point x="652.0" y="130.0" />
+              <point x="697.25" y="130.0" />
+              <point x="697.25" y="55.0" />
+              <point x="683.3125" y="55.0" />
+              <point x="36.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http" target="javax.servlet.ServletOutputStream">
+              <point x="-27.0" y="-15.0" />
+              <point x="616.0" y="140.0" />
+              <point x="386.75" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.UnavailableException" target="javax.servlet.ServletException">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
+              <point x="32.75" y="-15.0" />
+              <point x="128.0" y="55.0" />
+              <point x="188.25" y="55.0" />
+              <point x="-21.75" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
+              <point x="-32.75" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.ServletResponseWrapper" target="javax.servlet.ServletResponse">
+              <point x="0.0" y="-15.0" />
+              <point x="588.75" y="55.0" />
+              <point x="611.3125" y="55.0" />
+              <point x="-36.0" y="15.0" />
+            </edge>
+            <edge source="javax.servlet.http" target="javax.servlet.ServletRequest">
+              <point x="45.0" y="-15.0" />
+              <point x="688.0" y="150.0" />
+              <point x="904.25" y="150.0" />
+              <point x="904.25" y="55.0" />
+              <point x="890.3125" y="55.0" />
+              <point x="33.5" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0755102040816327" x="-12.0" y="394.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/FilterChain.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="333">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="13" selection-start-line="9" selection-start-column="7" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/DB.properties" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/context.xml" />
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entry/ChatRoomBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entry/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/imgServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ChatRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -335,24 +842,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="-473">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="703">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="62">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="703" column="36" selection-start-line="703" selection-start-column="29" selection-end-line="703" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/internal/bind/TypeAdapters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/TypeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entry/UserContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/MainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#568#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entry/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ChatRoom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,5 +1021,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
